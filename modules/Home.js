@@ -12,7 +12,6 @@ const styles = {
   },
   gridList: {
     width: 500,
-    height: 450,
     overflowY: 'auto',
   },
 };
@@ -33,7 +32,7 @@ export default React.createClass({
   render() {
     return <div >
     <AppBar
-    title="Title"
+    title="米圈"
   />
   <div style={styles.root}>
     <GridList

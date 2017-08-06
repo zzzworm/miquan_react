@@ -41,7 +41,7 @@ class QuestionList extends Component {
   render() {
     return (
       <div>
-        <AppBar title="Question" iconElementRight={<FlatButton label="Save" onTouchTap={handleTouchTap} />} />
+        <AppBar title="Question" iconElementRight={<FlatButton label="提问" onTouchTap={handleTouchTap} />} />
         <Slider {...settings}>
         <div><h3>1</h3></div>
         <div><h3>2</h3></div>
